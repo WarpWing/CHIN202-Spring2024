@@ -3,29 +3,29 @@
 # This page is a work in progress, it will soon contain teaching material based on Integrated Chinese Vol.3 for the Dickinson Spring 2024 CHIN202 course.
 
 ##### __Lesson 5 Vocabulary List__
-选
-门
-世界
-历史
-其他
-文章
-受不了
-轻松
-教授
-泰伦
-意见
-碰见
-毕业
-学位
-化学
-经济
-系
-学分
-决定
-解决
-打交道
-哲学
-管
-申请
-省下来
-李哲
+1. 选
+2. 门
+3. 世界
+4. 历史
+5. 其他
+6. 文章
+7. 受不了
+8. 轻松
+9. 教授
+10. 泰伦
+11. 意见
+12. 碰见
+13. 毕业
+14. 学位
+15. 化学
+16. 经济
+17. 系
+18. 学分
+19. 决定
+20. 解决
+21. 打交道
+22. 哲学
+23. 管
+24. 申请
+25. 省下来
+26. 李哲
