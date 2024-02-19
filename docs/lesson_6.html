@@ -65,7 +65,7 @@
   <!-- Top menu on small screens -->
   <header class="w3-container w3-top w3-hide-large w3-red w3-xlarge w3-padding">
     <a href="javascript:void(0)" class="w3-button w3-red w3-margin-right" onclick="w3_open()">☰</a>
-    <span>Open Menu</span>
+    <span><b>CHIN202 中文二年级<br>Spring 2024</b></span>
   </header>
 
   <!-- Overlay effect when opening sidebar on small screens -->
@@ -77,81 +77,56 @@
 
     <!-- Header -->
     <div class="w3-container" style="margin-top:80px" id="showcase">
-      <h1 class="w3-jumbo"><b>Intermediate Chinese 中文二年级</b></h1>
-      <p>This page is a work in progress, it will soon contain teaching material based on Integrated Chinese Vol. 3 for the Dickinson Spring 2024 CHIN202 course.</p>
+      <h1 class="w3-jumbo"><b>Lesson 6 - 男朋友女朋友😢</b></h1>
     </div>
 
-    <!-- Lesson 5 -->
+    <!-- Dialogue -->
     <div class="w3-container" id="services" style="margin-top:75px">
-      <h1 class="w3-xxxlarge w3-text-red"><b>第五课 - 选课</b></h1>
+      <h1 class="w3-xxxlarge w3-text-red"><b>Dialogue</b></h1>
       <hr style="width:50px;border:5px solid red" class="w3-round">
-      <p>Text Here
+      <p></t>丽莎这几天好像有什么心事。
       </p>
+
     </div>
 
-    <!-- Lesson 6 -->
-    <div class="w3-container" id="services" style="margin-top:75px">
-      <h1 class="w3-xxxlarge w3-text-red"><b>第六课 - 男朋友女朋友😢</b></h1>
-      <hr style="width:50px;border:5px solid red" class="w3-round">
-      <p>Vocabulary List:
-      </p>
-      <ol>
-        <li>心事</li>
-      </ol>
-    </div>
-
-    <!-- Lesson 7 -->
+    <!-- Vocab -->
     <div class="w3-container" id="designers" style="margin-top:75px">
-      <h1 class="w3-xxxlarge w3-text-red"><b>Lesson 7</b></h1>
+      <h1 class="w3-xxxlarge w3-text-red"><b>Vocabulary</b></h1>
       <hr style="width:50px;border:5px solid red" class="w3-round">
-      <p>Text Here
+      <p>
       </p>
     </div>
 
-    <!-- Lesson 8 -->
-    <div class="w3-container" id="packages" style="margin-top:75px">
-      <h1 class="w3-xxxlarge w3-text-red"><b>Lesson 8</b></h1>
-      <hr style="width:50px;border:5px solid red" class="w3-round">
-      <p>Text Here</p>
+    <div class="w3-row-padding">
+
+      <div class="w3-third">
+          <ul id="pinyin-list" class="w3-ul w3-light-grey w3-center">
+              <li class="w3-dark-grey w3-xlarge w3-padding-32">拼音</li>
+          </ul>
+      </div>
+
+      <div class="w3-third">
+          <ul id="shengci-list" class="w3-ul w3-light-grey w3-center">
+              <li class="w3-dark-grey w3-xlarge w3-padding-32">生词</li>
+          </ul>
+      </div>
+
+      <div class="w3-third">
+          <ul id="translation-list" class="w3-ul w3-light-grey w3-center">
+              <li class="w3-dark-grey w3-xlarge w3-padding-32">英文翻译</li>
+          </ul>
+      </div>
+
     </div>
 
-    <!-- <div class="w3-row-padding">
-      <div class="w3-half w3-margin-bottom">
-        <ul class="w3-ul w3-light-grey w3-center">
-          <li class="w3-dark-grey w3-xlarge w3-padding-32">Basic</li>
-          <li class="w3-padding-16">Floorplanning</li>
-          <li class="w3-padding-16">10 hours support</li>
-          <li class="w3-padding-16">Photography</li>
-          <li class="w3-padding-16">20% furniture discount</li>
-          <li class="w3-padding-16">Good deals</li>
-          <li class="w3-padding-16">
-            <h2>$ 199</h2>
-            <span class="w3-opacity">per room</span>
-          </li>
-          <li class="w3-light-grey w3-padding-24">
-            <button class="w3-button w3-white w3-padding-large w3-hover-black">Sign Up</button>
-          </li>
-        </ul>
-      </div>
+    <!-- Grammar -->
+    <div class="w3-container" id="services" style="margin-top:75px">
+      <h1 class="w3-xxxlarge w3-text-red"><b>Grammar</b></h1>
+      <hr style="width:50px;border:5px solid red" class="w3-round">
+      <p>
+      </p>
 
-      <div class="w3-half">
-        <ul class="w3-ul w3-light-grey w3-center">
-          <li class="w3-red w3-xlarge w3-padding-32">Pro</li>
-          <li class="w3-padding-16">Floorplanning</li>
-          <li class="w3-padding-16">50 hours support</li>
-          <li class="w3-padding-16">Photography</li>
-          <li class="w3-padding-16">50% furniture discount</li>
-          <li class="w3-padding-16">GREAT deals</li>
-          <li class="w3-padding-16">
-            <h2>$ 249</h2>
-            <span class="w3-opacity">per room</span>
-          </li>
-          <li class="w3-light-grey w3-padding-24">
-            <button class="w3-button w3-red w3-padding-large w3-hover-black">Sign Up</button>
-          </li>
-        </ul>
-      </div>
-    </div> -->
+    </div>
 
     <!-- Contact -->
     <!-- <div class="w3-container" id="contact" style="margin-top:75px">
@@ -185,7 +160,7 @@
         class="w3-hover-opacity">w3.css</a></p>
   </div>
 
-  <script>
+  <script src="populate_data.js">
     // Script to open and close sidebar
     function w3_open() {
       document.getElementById("mySidebar").style.display = "block";
@@ -204,6 +179,7 @@
       var captionText = document.getElementById("caption");
       captionText.innerHTML = element.alt;
     }
+    
   </script>
 
 </body>
