@@ -287,21 +287,21 @@
           <ul id="pinyin-list" class="w3-ul w3-light-grey w3-center">
               <li class="w3-dark-grey w3-xlarge w3-padding-32">拼音</li>
           </ul>
-          <button class="w3-button w3-red w3-padding-large w3-hover-black">Hide All</button>
+          <button class="w3-button w3-red w3-padding-large w3-hover-black" id="py_button" onClick="toggle_vocab('pinyin-list', 'py_button')">Hide All</button>
       </div>
 
       <div class="w3-third">
           <ul id="shengci-list" class="w3-ul w3-light-grey w3-center">
               <li class="w3-dark-grey w3-xlarge w3-padding-32">生词</li>
           </ul>
-          <button class="w3-button w3-red w3-padding-large w3-hover-black">Hide All</button>
+          <button class="w3-button w3-red w3-padding-large w3-hover-black" id="sc_button" onClick="toggle_vocab('shengci-list', 'sc_button')">Hide All</button>
       </div>
 
       <div class="w3-third">
           <ul id="translation-list" class="w3-ul w3-light-grey w3-center">
               <li class="w3-dark-grey w3-xlarge w3-padding-32">英文翻译</li>
           </ul>
-          <button class="w3-button w3-red w3-padding-large w3-hover-black">Hide All</button>
+          <button class="w3-button w3-red w3-padding-large w3-hover-black" id="tr_button" onClick="toggle_vocab('translation-list', 'tr_button')">Hide All</button>
       </div>
 
     </div>
@@ -358,6 +358,16 @@
     function w3_close() {
       document.getElementById("mySidebar").style.display = "none";
       document.getElementById("myOverlay").style.display = "none";
+    }
+
+    function toggle_vocab(type, button) {
+      if (document.getElementById(type).hidden === false) {
+        document.getElementById(type).hidden = true;
+        document.getElementById(button).textContent = "Show All";
+      } else {
+        document.getElementById(type).hidden = false;
+        document.getElementById(button).textContent = "Hide All";
+      }
     }
 
     // Modal Image Gallery
